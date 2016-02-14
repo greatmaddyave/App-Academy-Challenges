@@ -3,9 +3,9 @@ def factors_three(n)
     remainder = n % 3
 
     if remainder == 0
-        puts "Your number is a factor of 3"
+        return true
     else
-        puts "Your number is not a factor of 3"
+        return false
     end  
 end
 
